@@ -42,3 +42,22 @@ To get started with this project, follow these steps:
 
 For any questions or feedback, reach out to [mohammedzaidmadari@gmail.com](mohammedzaidmadari@gmail.com).
 
+### **Description of Files and Directories**
+
+- **`src/`**: Contains all source code files.
+  - **`main.py`**: The main script to execute the real-time people counting functionality.
+  - **`lib/`**: Directory for additional modules.
+    - **`centroid_tracker.py`**: Module for tracking centroids of detected people.
+    - **`trackable_object.py`**: Module defining trackable objects and their attributes.
+    - **`config.py`**: Configuration file for setting parameters such as video source.
+  - **`utils/`**: (Optional) Directory for utility scripts or helper functions.
+
+- **`venv/`**: Virtual environment directory where Python dependencies are installed. This directory is excluded from version control.
+
+- **`.gitignore`**: Specifies files and directories to be ignored by Git, such as `venv/` and `__pycache__/`.
+
+- **`README.md`**: Provides an overview of the project, including setup instructions, usage guidelines, and other relevant information.
+
+- **`requirements.txt`**: Lists the Python packages required for the project. Use this file to install dependencies via `pip`.
+
+
